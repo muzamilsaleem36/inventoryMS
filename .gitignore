@@ -1,0 +1,140 @@
+# Laravel
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/logs/
+/storage/debugbar/
+/.env
+/.env.backup
+/.phpunit.result.cache
+/phpunit.xml
+/bootstrap/cache/
+/Homestead.json
+/Homestead.yaml
+/npm-debug.log
+/yarn-error.log
+/.idea
+/.vscode
+.DS_Store
+Thumbs.db
+
+# Laravel Vite
+/public/build/
+
+# Composer
+/composer.lock
+
+# NPM
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Cache
+/storage/framework/cache/*
+!/storage/framework/cache/.gitkeep
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitkeep
+/storage/framework/views/*
+!/storage/framework/views/.gitkeep
+
+# Compiled assets
+/public/css/
+/public/js/
+/public/mix-manifest.json
+/public/build/
+
+# Uploads
+/storage/app/uploads/*
+!/storage/app/uploads/.gitkeep
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# Backups
+/storage/app/backups/*
+!/storage/app/backups/.gitkeep
+
+# Reports
+/storage/app/reports/*
+!/storage/app/reports/.gitkeep
+
+# Receipts
+/storage/app/receipts/*
+!/storage/app/receipts/.gitkeep
+
+# Product images
+/storage/app/public/products/*
+!/storage/app/public/products/.gitkeep
+
+# Logos
+/storage/app/public/logos/*
+!/storage/app/public/logos/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Security
+/.env
+/.env.local
+/.env.production
+/.env.development
+/.env.testing
+/auth.json
+
+# Testing
+/coverage/
+/phpunit.xml
+/.phpunit.result.cache
+
+# Package managers
+/composer.lock
+/package-lock.json
+/yarn.lock
+
+# Build tools
+/public/hot
+/public/build/
+/mix-manifest.json
+
+# Laravel specific
+/bootstrap/cache/compiled.php
+/bootstrap/cache/config.php
+/bootstrap/cache/routes.php
+/bootstrap/cache/services.php
+
+# Deployment
+/deploy.php
+/Envoy.blade.php
+/.deployment
+/.deployments/ 

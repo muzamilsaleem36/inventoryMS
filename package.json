@@ -1,0 +1,65 @@
+{
+    "name": "pos-system",
+    "version": "1.0.0",
+    "description": "Professional Point of Sale System",
+    "main": "resources/js/app.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "watch": "vite build --watch",
+        "preview": "vite preview",
+        "hot": "vite --hot"
+    },
+    "keywords": [
+        "pos",
+        "point-of-sale",
+        "laravel",
+        "vue",
+        "bootstrap",
+        "inventory",
+        "sales"
+    ],
+    "author": "Conzec Technologies",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "^5.3.0",
+        "jquery": "^3.7.0",
+        "@popperjs/core": "^2.11.8",
+        "chart.js": "^4.3.0",
+        "axios": "^1.4.0",
+        "sweetalert2": "^11.7.0",
+        "datatables.net": "^1.13.0",
+        "datatables.net-bs5": "^1.13.0",
+        "select2": "^4.1.0",
+        "daterangepicker": "^3.1.0",
+        "moment": "^2.29.0",
+        "font-awesome": "^4.7.0",
+        "bootstrap-datepicker": "^1.10.0",
+        "quagga": "^0.12.1",
+        "jsbarcode": "^3.11.5",
+        "html2canvas": "^1.4.1",
+        "jspdf": "^2.5.1",
+        "lodash": "^4.17.21",
+        "numeral": "^2.0.6"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.2.3",
+        "laravel-vite-plugin": "^0.7.5",
+        "sass": "^1.63.6",
+        "vite": "^4.4.0",
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.24",
+        "tailwindcss": "^3.3.2",
+        "eslint": "^8.44.0",
+        "prettier": "^2.8.8"
+    },
+    "engines": {
+        "node": ">=16.0.0",
+        "npm": ">=8.0.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+} 
